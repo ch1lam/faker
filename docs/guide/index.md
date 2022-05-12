@@ -43,6 +43,8 @@ pnpm add @faker-js/faker --save-dev
 
 ```js
 import { faker } from '@faker-js/faker';
+// CommonJS
+// const { faker } = require("@faker-js/faker");
 
 const randomName = faker.name.findName(); // Rowan Nikolaus
 const randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
